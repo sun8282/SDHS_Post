@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'SUIT-Regular'; text-decoration: none;}
+a{
+    color: #000;
+}
+body{
+    height: 2500px;
+    background: #fcfcfc;
+}
+.container{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.list table{
+    width: 550px;
+    height: 200px;
+    font-size: 20px;
+    border-spacing: 20px;
+}
+.create{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background: #000;
+    color: #fff;
+    position: fixed;
+    top: 150px;
+    left: 77%;
+    cursor: pointer;
+}
+#utitle{
+    width: 300px;
+    height: 50px;
+    resize: none;
+    font-size: 30px;
+}
+
+#ucontent{
+    width: 800px;
+    height: 500px;
+    resize: none;
+    font-size: 30px;
+}
+.morebar{
+    width: 550px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.loginbox{
+    width: 250px;
+    position: relative;
+    left: 80%;
+}
+.loginbtn{
+    padding: 10px 18px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;
+    left: 140px;
+    bottom: -10px;
+    
+}
+.loginbtn:hover{
+    background: #07f;
+    color: #fff;
+    border: 1px solid #07f;
+    transition: .3s;
+}
+.viewbtn{
+    width: 80px;
+    height: 30px;
+    opacity: .6;
+}
+.viewbtn:hover{
+    opacity: 1;
+}
+.title{
+    width: 1200px;
+    height: 70px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+.viewbox{
+    position: relative;
+    top: 50px;
+}
+.useranddate{
+    font-size: 20px;
+    
+    
+}
+.text{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.profile{
+   position: relative;
+   top: 30px;
+   right: 40px;
+}
+.profile:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.write{
+    position: relative;
+    top: 60px;
+    right: 100px;
+}
+.write:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.postbox{
+    width: 300px;
+    height: 350px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-rows: 150px 150px 50px 50px;
+    margin-bottom: 60px;
+
+}
+.postbox:hover{
+    /* transform: scale(1.1); */
+    /* background: #53d57c; */
+    /* color: #fff; */
+}
+.listgrid{
+    display: grid;
+    position: absolute;
+    top: 25%;
+    grid-template-columns:  400px 400px 400px;
+    
+}
+.list{
+    position: absolute;
+    top: 15%;
+    
+}
+.posttitle{
+    width: 280px;
+    margin: 0 auto;
+    font-size: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.posttext{
+    width: 280px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4 ;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-size: 18px;
+}
+.dateandviews{
+    width: 280px;
+    margin: 0 auto;
+}
+.username{
+    width: 280px;
+    margin: 0 auto;
+}
+.footer{
+    border-top: 1px solid #ccc;
+}
+.pagenation{
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    top: 60%;
+}
+.pagebtn{
+    font-size: 20px;
+    margin-right: 10px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.viewsandlikes{
+
+}
